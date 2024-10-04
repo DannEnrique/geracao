@@ -1,0 +1,58 @@
+/* Design infantil, com cores suaves e fontes amigáveis */
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #186eb8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: #0d06e5;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #0d06e5;
+    font-size: 1.2em;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0d06e5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1f1fc3;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 1.4em;
+    color: #4b0082;
+}
+
